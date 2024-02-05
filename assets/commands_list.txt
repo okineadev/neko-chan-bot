@@ -1,0 +1,48 @@
+Submit this list of commands to BotFather
+=========================================
+
+neko - Send neko
+kitsune - Send kitsune
+waifu - Send waifu
+husbando - Send husbando
+baka - Send baka GIF
+bite - Send bite GIF
+blush - Send blush GIF
+bored - Send bored GIF
+cry - Send cry GIF
+cuddle - Send cuddle GIF
+dance - Send dance GIF
+facepalm - Send facepalm GIF
+feed - Send feed GIF
+handhold - Send handhold GIF
+handshake - Send handshake GIF
+happy - Send happy GIF
+highfive - Send highfive GIF
+hug - Send hug GIF
+kick - Send kick GIF
+kick - Send kick GIF
+kiss - Send kiss GIF
+laugh - Send laugh GIF
+lurk - Send lurk GIF
+nod - Send nod GIF
+nom - Send nom GIF
+nope - Send nope GIF
+pat - Send pat GIF
+peck - Send peck GIF
+poke - Send poke GIF
+pout - Send pout GIF
+punch - Send punch GIF
+shoot - Send shoot GIF
+shrug - Send shrug GIF
+slap - Send slap GIF
+sleep - Send sleep GIF
+smile - Send smile GIF
+smug - Send smug GIF
+stare - Send stare GIF
+think - Send think GIF
+thumbsup - Send thumbsup GIF
+tickle - Send tickle GIF
+wawe - Send wawe GIF
+wink - Send wink GIF
+yawn - Send yawn GIF
+yeet - Send yeet GIF
