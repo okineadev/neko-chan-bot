@@ -43,8 +43,8 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/okineadev/meow-matrix.git
-   cd meow-matrix
+   git clone https://github.com/okineadev/neko-chan-bot.git
+   cd neko-chan-bot
    ```
 2. Install all dependencies
    ```sh
