@@ -55,7 +55,7 @@ This is an example of how to list things you need to use the software and how to
 3. Create a bot in [@BotFather](https://t.me/botfather) and copy the token
 4. Add your bot's token to the `.env` (environment) file
    ```sh
-   echo 'BOT_TOKEN="<your bot token>"' >> .env'
+   echo 'BOT_TOKEN="<your bot token>"' >> .env
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
