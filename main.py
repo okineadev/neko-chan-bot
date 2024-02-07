@@ -18,9 +18,9 @@ with open("assets/categories.json", 'r') as file:
     categories = loaded_file["categories"]
 
 photo_categories = categories["photo"]
-video_categories = categories["video"]
+gif_categories = categories["gif"]
 
-allowed_commands = [*photo_categories, *video_categories]
+allowed_commands = [*photo_categories, *gif_categories]
 
 # We load environment variables from the .env file
 load_dotenv()
@@ -38,7 +38,7 @@ nekoAPI=nekosbest.Client()
 async def create_media(category: str, amount: int = 1):
     photos = await nekoAPI.get_image(category, amount)
 
-    media_type = "video" if category in video_categories else "photo"
+    media_type = "video" if category in gif_categories else "photo"
     album = MediaGroupBuilder()
 
     if not isinstance(photos, list):
@@ -69,7 +69,7 @@ async def send_neko(message: Message) -> None:
 async def send_many_photos(message: Message, command: CommandObject):
     category = command.command
     args = command.args
-    is_video = category in video_categories
+    is_video = category in gif_categories
     amount = 1
 
     if args:
@@ -84,7 +84,6 @@ async def send_many_photos(message: Message, command: CommandObject):
 
                 if (amount > 0) and (amount <= 10):
                     pass
-                    #await message.answer_media_group(media=await create_neko(command.command, amount))
                 else:
                     await message.answer("Enter a valid value (from 1 to 10).")
                     return
