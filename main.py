@@ -9,7 +9,7 @@ from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart, Command, CommandObject
 from aiogram.types import Message
 from aiogram.utils.media_group import MediaGroupBuilder
-import nekosbest_revive as nekosbest
+import nekosbest
 import json
 
 with open("assets/categories.json", 'r') as file:
