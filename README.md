@@ -1,7 +1,3 @@
-<a name="readme-top"></a>
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <a href="https://github.com/okineadev/neko-chan-bot">
     <img src="public/logo.jpg" alt="Logo">
@@ -18,10 +14,8 @@
   </p>
 </div>
 
-<!-- ABOUT THE PROJECT -->
-
 ## ℹ️ About The Project
-****
+
 <img src="public/screenshot.png"></img>
 
 This bot can send pictures and GIF's with nekos, kitsune .etc
@@ -30,13 +24,9 @@ This project uses [**nekosbest**](https://github.com/nekos-best/nekos-best.py) A
 
 <hr>
 
-<!-- GETTING STARTED -->
-
 ## 🧧 Getting Started
 
 ### 📦 Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 
 - **Git**
 - **make** (in Linux)
@@ -44,30 +34,30 @@ This is an example of how to list things you need to use the software and how to
 
 ### 💿 Installation
 
-
 1. Clone the repo
+
    ```sh
    git clone https://github.com/okineadev/neko-chan-bot.git
    cd neko-chan-bot
    ```
+
 2. Install all dependencies
    ```sh
    make setup
    # Or run this script if you on Windows
    # ./setup.sh
    ```
+
 3. Create a bot in [@BotFather](https://t.me/botfather) and copy the token.
 
-> If you don't know how to do it, here are the [**instructions**](https://telegra.ph/How-to-create-a-Telegram-bot-with-BotFather-02-08)
+    > [!TIP]
+    > If you don't know how to do it, here are the [**instructions**](https://telegra.ph/How-to-create-a-Telegram-bot-with-BotFather-02-08)
 
 4. Add your bot's token to the `.env` (environment) file
+
    ```sh
    echo 'BOT_TOKEN="<your bot token>"' >> .env
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
 
 ## 🔥 Usage
 
@@ -77,17 +67,17 @@ Usage: `/<category> <amount>`
 
 Example: `/neko`
 
-The bot will send you one photo of a kitten, to get several at the same time, write the number you want to get at the end: `/neko 8`
+The bot will send you one photo, to get several at the same time, write the number you want to get at the end: `/neko 8`
 
 > [!NOTE]
-> Note that the maximum number of photos at a time is 10 pieces.
+> The maximum number of photos at a time is 10 pieces.
 
-You can also get a GIF by doing the same thing as in the previous step.
+You can also get a **GIF** by doing the same thing as in the previous step.
 
 > [!NOTE]
-> Note that you can only get one GIF at a time
+> You can only get one GIF at a time
 
-<hr>
+<hr/>
 
 If you want to check out all the commands, here is their list:
 
@@ -141,22 +131,18 @@ If you want to check out all the commands, here is their list:
   </ul>
 </details>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 📑 Additional materials
 
 ### 🏞️ Photoshop designs
 
-You can use and edit the `.psd` files located in the [**assets/photoshop**](assets/photoshop) folder
+- You can use and edit the `.psd` files located in the [**assets/photoshop**](assets/photoshop) folder
 
-If you want to fix the logo of the repository, the avatar of the bot -you can safely take the file and edit it, after that export the photo and place it in the desired folder (for example [**public**](public))
+- If you want to fix the logo of the repository, the avatar of the bot - you can safely take the file and edit it, after that export the photo and place it in the desired folder (for example [**public**](public))
 
 ### 📄 Commands
 
-A list of all commands is in the file [**commands_list.txt**](assets/commands_list.txt)
-You can send it to BotFather to install a menu with all the commands
-
-<!-- CONTRIBUTING -->
+- A list of all commands is in the file [**commands_list.txt**](assets/commands_list.txt)
+- You can send it to BotFather to install a menu with all the commands
 
 ## 🤝 Contributing
 
@@ -171,13 +157,9 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
-
 ## 📝 License
 
 Distributed under the GNU GPLv3 . See `LICENSE.txt` for more information.
-
-<!-- CONTACT -->
 
 ## ☎️ Contact
 
@@ -191,7 +173,3 @@ You can support me financially, I will be very grateful!
 💳 **Bank card:** `4441 1144 0274 7206` (**monobank**)
 
 💎 **TON Wallet:** `UQBaBIBtKJpdwc4jKSGd70LZyQnEf-Nx5edzZlZAAGkHnZ7E`
-
-</br>
-
-<a href="https://www.buymeacoffee.com/okinea" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
